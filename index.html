@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Handson 2-3/1</title>
+</head>
+
+<body>
+    <form action="./index1.html" method="get">
+        <h1>FORMS</h1>
+        <strong>
+            <label for="name">Name</label>
+            <input type="text" placeholder="name" id="name" name="name" autocomplete="true" required><br><br>
+            <label for="email">Email Address</label>
+            <input type="email" placeholder="email" id="email" name="email" autocomplete="true" required><br><br>
+            <label for="password">Password</label>
+            <input type="password" placeholder="password" id="password" name="password"
+                pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" autocomplete="true" required><br><br>
+            <label for="language">Language</label><br><br>
+            <input type="radio" value="React" placeholder="language" id="react" name="language" autocomplete="true"
+                required><label for="react">React</label><br>
+            <input type="radio" value="Angular" placeholder="language" id="angular" name="language" autocomplete="true"
+                required><label for="angular">Angular</label><br>
+            <input type="radio" value="Vue" placeholder="language" id="vue" name="language" autocomplete="true"
+                required><label for="vue">Vue</label><br><br>
+            <label for="choice">Course</label><br><br>
+            <input type="checkbox" value="MERN" placeholder="choice" id="mern" name="Course1" autocomplete="true"
+                required><label for="mern">MERN</label><br>
+            <input type="checkbox" value="MEAN" placeholder="choice" id="mean" name="Course2" autocomplete="true"
+                required><label for="mean">MEAN</label><br>
+            <input type="checkbox" value="MEVN" placeholder="choice" id="mevn" name="Course3"><label
+                for="mevn">MEVN</label><br><br>
+            <label for="drop">Field:</label><br>
+            <select name="Field" id="drop" required>
+                <option value="FrontEnd">Front End</option>
+                <option value="BackEnd">Bank End</option>
+                <option value="Full Stack">Full Stack</option>
+            </select>
+            <br><br>
+            <textarea cols="30" rows="8" placeholder=""></textarea>
+            <br><br>
+            <label for="docs">Upload your documents here:</label><br>
+            <input type="file" id="docs" name="" value="">
+            <br><br>
+
+            <label for="PhoneNo">Phone Number</label>
+            <input type="tel" placeholder="" id="PhoneNo" name="PhoneNo" pattern="[0-9]{10}" required>
+
+            <button>Submit</button>
+            <h1>TABLES</h1>
+            <a href="./index2.html">Click Here</a>
+        </strong>
+
+
+    </form>
+
+</body>
+
+</html>
